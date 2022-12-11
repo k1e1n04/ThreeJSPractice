@@ -27,3 +27,11 @@ docker run --rm -p 1223:80 threejs_practice:1.0
 php ビルドインサーバーを用いています。
 下記にアクセスできることを確認してください。　　
 http://localhost:1223/
+
+## 物体実装の流れ
+1. scene(ステージ)の設定
+2. mesh(物体)の設定
+- geometry(形状)
+- material(材質)
+3. camera(カメラ)の設定
+4. renderer(実際に描画する)
